@@ -1,0 +1,91 @@
+/*Network Blog Listing Admin Styles*/
+.network_blog_listing
+{
+	padding: 10px;
+}
+.network_blog_listing .childblog
+{
+	position: relative;
+	display: inline-block;
+	width: 90%;
+	margin: 10px 0 0 10px;
+	border-bottom: 1px dotted #ADADAD;
+	position: relative;
+}
+.network_blog_listing .blog_avatar
+{
+	float: left;
+	margin-right: 20px;
+}
+.network_blog_listing .childblog .blog_avatar A
+{
+	border: 4px solid #E7E7E7;
+	display: inline-block;
+}
+.network_blog_listing .posthead SPAN.location
+{
+	font-style: italic;
+	padding-left: 5px;
+}
+.network_blog_listing .childblog .posthead UL.sitelinks
+{
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.network_blog_listing .posthead UL.sitelinks LI
+{
+	display: inline;
+	margin: 0px;
+	padding: 0px 3px;
+}
+.network_blog_listing .posthead .sitelinks LI A
+{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.network_blog_listing .posthead .nbl_details
+{
+	padding: 5px;
+	background-color: #F7F7F7;
+	margin: 5px;
+}
+.network_blog_listing .posthead .nbl_details P
+{
+	padding: 0px;
+	margin: 0px;
+	font-style: italic;
+}
+.network_blog_listing .childblog .postbody
+{
+	padding: 5px;
+	margin: 5px 5px 10px;
+	background-color: #E9F1F5;
+}
+#content .network_blog_listing DIV.childblog .wrap DIV.posthead H2
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0px;
+}
+#content .network_blog_listing .childblog .postbody .posttitle H3 A
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+.network_blog_listing .childblog .postbody .posttitle H3
+{
+	padding: 0px;
+}
+.network_blog_listing .childblog .postbody DIV.excerpt
+{
+	font-size: 11px;
+	line-height: 18px;
+}
+.network_blog_listing DIV.excerpt P
+{
+	margin: 0px;
+}
+.network_blog_listing A:link, .network_blog_listing A:visited, .network_blog_listing A:active, .network_blog_listing A:hover
+{
+	color: #70BFFB;
+}

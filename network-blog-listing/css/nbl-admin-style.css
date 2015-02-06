@@ -1,0 +1,63 @@
+/*Network Blog Listing Admin Styles*/
+DIV.nbl_wrap
+{
+	-webkit-border-radius: 12px;
+	border-radius: 12;
+	border: 1px solid #B5B5B5;
+	padding: 0;
+	margin: 10px 0;
+}
+.nbl_wrap H3
+{
+	background-color: #C3E0F6;
+	padding: 5px 10px;
+	margin: 0px;
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-top-right-radius: 12px;
+	border-radius: 12;
+	border-radius: 12;
+	color: #484848;
+}
+.nbl_wrap H4
+{
+	padding: 5px 10px;
+}
+.nbl_wrap TABLE.form-table
+{
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table
+{
+	width: 500px;
+	margin: 0 20px 10px;
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table TH
+{
+	display: none;
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table TD
+{
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table TABLE
+{
+	margin: -10px 0px 0px;
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table TD *
+{
+	text-align: left !important;
+	float: left;
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table #nbl_avatar_buttons
+{
+	clear: both;
+	margin: 10px 0;
+}
+.nbl_avatar_wrap.nbl_wrap TABLE.form-table #upload_image_button.upload_button
+{
+}
+.nbl_details_wrap.nbl_wrap TABLE.form-table
+{
+	margin: 0 0 10px;
+}
